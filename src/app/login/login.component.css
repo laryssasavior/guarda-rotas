@@ -1,0 +1,47 @@
+body {
+	font-family: Arial, sans-serif; /* Define a fonte do corpo */
+	background-color: #f0f0f0; /* Cor de fundo da página */
+	margin: 0; /* Remove margens padrão */
+	padding: 0; /* Remove padding padrão */
+  }
+  
+  .container {
+	display: flex; /* Usar flexbox */
+	justify-content: center; /* Centraliza horizontalmente */
+	align-items: center; /* Centraliza verticalmente */
+	height: 100vh; /* Altura da viewport */
+  }
+  
+  .login-form {
+	background-color: white; /* Cor de fundo do formulário */
+	padding: 20px; /* Espaçamento interno */
+	border-radius: 5px; /* Bordas arredondadas */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra do formulário */
+	width: 300px; /* Largura do formulário */
+  }
+  
+  .login-form div {
+	margin-bottom: 15px; /* Espaçamento entre os campos */
+  }
+  
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+	width: 100%; /* Largura total do campo */
+	padding: 10px; /* Espaçamento interno */
+	border: 1px solid #ccc; /* Borda do campo */
+	border-radius: 4px; /* Bordas arredondadas */
+  }
+  
+  .login-form input[type="submit"] {
+	background-color: #007bff; /* Cor de fundo do botão */
+	color: white; /* Cor do texto do botão */
+	border: none; /* Remove a borda padrão */
+	padding: 10px; /* Espaçamento interno do botão */
+	border-radius: 4px; /* Bordas arredondadas do botão */
+	cursor: pointer; /* Cursor de ponteiro ao passar sobre o botão */
+	width: 100%; /* Largura total do botão */
+  }
+  
+  .login-form input[type="submit"]:hover {
+	background-color: #0056b3; /* Cor do botão ao passar o mouse */
+  }
